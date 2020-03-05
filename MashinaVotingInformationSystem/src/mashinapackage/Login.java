@@ -22,16 +22,16 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Mrongo
+ * @author Victor Omondi
  */
 public class Login extends javax.swing.JFrame {
 
     /**
      * Creates new form Login
      */
-    Connection con=null;
-    ResultSet rs=null;
-    PreparedStatement prs=null;
+    Connection con = null;
+    ResultSet rs = null;
+    PreparedStatement prs = null;
     Statement st=null;
    
     public Login() {
